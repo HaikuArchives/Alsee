@@ -1,0 +1,24 @@
+AlSee .95 Beta
+	coded by Ryan Westphal
+
+This is a small image viewer with Previous/Next functions, drag and drop support and image associations.  It also has bi-directional buffering so previous and next images are loaded while you are looking at the current one.  I wrote this because I couldn't find any that I liked.  This program is completely free.  You can contact me at ryanw@csh.rit.edu.
+
+Notes:
+
+General:
+o	You can use page up for previous and page down for next.
+o	When clicking on previous or next, the cursor stays over the button.
+o	You will have to associate the file types with AlSee yourself via
+	the FileTypes preferences panel.
+
+If No Resize is unchecked:
+o	If an image is too big, it is scaled to fit the screen.
+o	Checking Maintain Ratio will cause each side to scale equally.
+o	All images appear in the center of the screen regardless of where
+	you moved the window.
+
+If No Resize is checked:
+o	Checking No Resize override Maintain Ratio because the window
+	does not change size or position, therefore cannot maintain a ratio.
+o	You can click and drag the image around inside the window to view
+	more of it and resize the window yourself.
